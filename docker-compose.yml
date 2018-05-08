@@ -7,3 +7,13 @@ services:
     image: travel_mongorestore:1.0
     depends_on:
       - mongo
+  parse:
+    build: ./server/parse-server
+    ports:
+      - "1337:1337"
+    depends_on:
+      - mongo
+  parse_dashboard:
+    build: ./server/parse-dashboard
+    ports:
+      - "4040:4040"
