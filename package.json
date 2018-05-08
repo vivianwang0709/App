@@ -6,16 +6,15 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "server": "babel-node src/server/server.js  --presets es2015,stage-2",
-    "bundle-ios":     "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.ios.js     --platform ios     --dev false --bundle-output ./ios/bundle/index.ios.jsbundle          --assets-dest ./ios/bundle",
+    "bundle-ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.ios.js     --platform ios     --dev false --bundle-output ./ios/bundle/index.ios.jsbundle          --assets-dest ./ios/bundle",
     "bundle-android": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.android.js --platform android --dev false --bundle-output ./android/bundle/index.android.jsbundle  --assets-dest ./android/bundle/",
     "compose": "docker-compose up"
-
   },
   "dependencies": {
     "express": "^4.16.3",
-    "react": "^15.6.1",
+    "react": "^15.4.2",
     "react-native": "0.40.0",
-    "react-navigation": "^1.0.0-beta.11",
+    "react-navigation": "1.0.0-beta.11",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2"
   },
