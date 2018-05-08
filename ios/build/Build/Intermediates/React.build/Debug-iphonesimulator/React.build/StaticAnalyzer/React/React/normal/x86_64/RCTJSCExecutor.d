@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Executors/RCTJSCExecutor.mm \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Executors/RCTJSCExecutor.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Modules/JSCSamplingProfiler.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Modules/RCTDevMenu.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Executors/RCTJSCErrorHandling.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Profiler/RCTJSCProfiler.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/aaron/Desktop/vvn/font/case/travel/App/node_modules/react-native/React/Base/RCTUtils.h

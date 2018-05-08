@@ -1,0 +1,4 @@
+#Thu Apr 26 18:36:53 CST 2018
+base.0=/Users/aaron/Desktop/vvn/font/case/travel/App/android/app/build/intermediates/transforms/dex/release/0
+path.0=classes.dex
+renamed.0=classes.dex

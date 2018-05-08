@@ -1,0 +1,9 @@
+version: "3"
+services:
+  mongo:
+    image: mongo
+  mongorestore:
+    build: ./server/mongorestore
+    image: travel_mongorestore:1.0
+    depends_on:
+      - mongo
