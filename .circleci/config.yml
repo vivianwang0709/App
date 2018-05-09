@@ -29,23 +29,16 @@ jobs:
           command: |
             docker-compose up
 
-  server:
-    working_directory: ~/App
-    docker:
-      - image: circleci/node:7.10
-    steps:
-      - checkout
       - run:
           name: http get
           command: |
+            apk update && apk add curl curl-dev bash
             curl --retry 10 --retry-delay 5 -v http://localhost:3000/api/area
-
 
 workflows:
   version: 2
   build_and_test:
     jobs:
       - env
-      - server 
 
 
