@@ -2,8 +2,9 @@ version: "3"
 services:
   web:
     build: ./server/web
+    image: travel_web:1.2
     ports:
-      - "80:5000"
+      - "3000:3000"
     links:
       - mongorestore
   mongo:
