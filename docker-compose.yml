@@ -2,7 +2,7 @@ version: "3"
 services:
   web:
     build: ./server/web
-    image: travel_web:1.0
+    image: travel_web:1.1
     ports:
       - "3000:3000"
     links:
