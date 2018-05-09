@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "server": "babel-node src/server/server.js  --presets es2015,stage-2",
+    "server": "babel-node ./src/server/server.js  --presets es2015,stage-2",
     "bundle-ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.ios.js     --platform ios     --dev false --bundle-output ./ios/bundle/index.ios.jsbundle          --assets-dest ./ios/bundle",
     "bundle-android": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.android.js --platform android --dev false --bundle-output ./android/bundle/index.android.jsbundle  --assets-dest ./android/bundle/",
     "compose": "docker-compose up"
