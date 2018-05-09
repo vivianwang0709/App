@@ -41,18 +41,21 @@ const url = 'mongodb://mongo:27017';
 const dbName = 'dev';
 
 MongoClient.connect(url, function (err, client) {
+
+    console.log(err)
+    
     // Use the admin database for the operation
     const adminDb = client.db(dbName).admin();
     // List all the available databases
     adminDb.listDatabases(function (err, dbs) {
-        console.log(dbs.databases);
+        console.log(err,dbs.databases);
         client.close();
     });
 
     const col = client.db(dbName).collection('Video');
     // Show that duplicate records got dropped
     col.find({}).toArray(function (err, items) {
-        console.log(items);
+        console.log(err,items);
         client.close();
     });
 
