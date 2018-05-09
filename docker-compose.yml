@@ -1,5 +1,12 @@
 version: "3"
 services:
+  web:
+    image: circleci/node:7.10
+    ports:
+      - "80:5000"
+    links:
+      - mongorestore
+    command: yarn server
   mongo:
     image: mongo
   mongorestore:
@@ -7,10 +14,5 @@ services:
     image: travel_mongorestore:1.0
     depends_on:
       - mongo
-  parse:
-    build: ./server/parse-server
-    ports:
-      - "1337:1337"
-    depends_on:
-      - mongo
+
 
