@@ -29,7 +29,7 @@ jobs:
           command: |
             docker-compose up -d
             docker run --network container:app_web_1 \
-            curl --retry 10 --retry-delay 5 -v http://localhost:3000/api/area
+            appropriate/curl --retry 10 --retry-delay 5 -v http://localhost:3000/api/area
 
 workflows:
   version: 2
