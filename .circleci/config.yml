@@ -28,14 +28,9 @@ jobs:
           name: Start container and verify it's working
           command: |
             docker-compose up
-  server:
-    working_directory: ~/App
-    docker:
-      - image: circleci/node:7.10
-    steps:
-      - checkout
+
       - run:
-          name: Start container and verify it's working
+          name: http requset get
           command: |
             curl --retry 10 --retry-delay 5 -v http://localhost:3000/api/area
 
@@ -46,5 +41,4 @@ workflows:
     jobs:
       - build
       - env
-      - server
 
