@@ -2,7 +2,7 @@ version: "3"
 services:
   web:
     build: ./server/web
-    image: travel_web:1.1
+    image: travel_web:1.0
     ports:
       - "3000:3000"
     depends_on:
@@ -18,7 +18,7 @@ services:
       - 8081:8081
   mongorestore:
     build: ./server/mongorestore
-    image: travel_mongorestore:1.1
+    image: travel_mongorestore:1.0
     depends_on:
       - mongo
 

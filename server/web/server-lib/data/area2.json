@@ -1,8 +1,0 @@
-{
-    "id":"01",
-    "data":[
-        {"id":"01001","name":"台北","img":"none","route":[]},
-        {"id":"01002","name":"新北","img":"none","route":[]},
-        {"id":"01003","name":"基隆","img":"none","route":[]},
-    ]
-}
