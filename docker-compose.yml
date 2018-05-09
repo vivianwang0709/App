@@ -5,14 +5,22 @@ services:
     image: travel_web:1.1
     ports:
       - "3000:3000"
-    links:
+    depends_on:
+      - mongo
       - mongorestore
   mongo:
     image: mongo
+    ports:
+      - 27017:27017
+  mongo-express:
+    image: mongo-express
+    ports:
+      - 8081:8081
   mongorestore:
     build: ./server/mongorestore
-    image: travel_mongorestore:1.0
+    image: travel_mongorestore:1.1
     depends_on:
       - mongo
+
 
 

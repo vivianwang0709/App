@@ -5,10 +5,14 @@
   "license": "MIT",
   "scripts": {
     "build": "babel server --out-dir server-lib --copy-files",
-    "server": "node ./server-lib/server.js"
+    "server": "node ./server-lib/server.js",
+    "test": "node ./server-lib/test.js"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongodb": "^3.0.8",
+    "mongoose": "^5.0.17",
+    "node-fetch": "^2.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
