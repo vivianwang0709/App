@@ -6,7 +6,9 @@ services:
       - "80:5000"
     links:
       - mongorestore
-    command: yarn server
+    command: |
+      yarn install
+      yarn server
   mongo:
     image: mongo
   mongorestore:
