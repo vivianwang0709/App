@@ -15,6 +15,13 @@ jobs:
             pip install \
               docker-compose==1.12.0 \
               awscli==1.11.76
+      - run:
+          name: Start container and verify it's working
+          command: |
+            docker-compose up -d
+            docker run --network container:app_web_1 \
+            appropriate/curl --retry 10 --retry-delay 5 -v http://localhost:3000/api/area \
+
   build:
     working_directory: ~/App
     docker:
