@@ -1,14 +1,11 @@
 version: "3"
 services:
   web:
-    image: circleci/node:7.10
+    build: ./server/web
     ports:
       - "80:5000"
     links:
       - mongorestore
-    command: |
-      yarn install
-      yarn server
   mongo:
     image: mongo
   mongorestore:
